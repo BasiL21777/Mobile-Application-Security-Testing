@@ -53,7 +53,6 @@ cd Mobile-Application-Security-Testing
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-python DepiApk.py --help
 ```
 
 ### **Windows**
@@ -64,7 +63,6 @@ cd Mobile-Application-Security-Testing
 python3 -m venv venv
 .\venv\Scripts\activate
 pip install -r .\requirements.txt
-python DepiApk.py --help
 ```
 
 ---
@@ -74,18 +72,18 @@ python DepiApk.py --help
 ### **Scan an APK**
 
 ```bash
-python3 DepiApk.py -apk file.apk
+python DepiApk.py -apk file.apk
 ```
 
 ### **Scan Using Extracted Source Code (Faster)**
 
 ```bash
-python3 DepiApk.py -apk file.apk -source <source-code-path>
+python DepiApk.py -apk file.apk -source <source-code-path>
 ```
 
 ### **Generate PDF and HTML Reports**
 
 ```bash
-python3 DepiApk.py -apk file.apk -report
+python DepiApk.py -apk file.apk -report
 ```
 
