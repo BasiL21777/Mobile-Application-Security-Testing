@@ -72,18 +72,18 @@ pip install -r .\requirements.txt
 ### **Scan an APK**
 
 ```bash
-python DepiApk.py -apk file.apk
+python DEPI_APK.py -apk file.apk
 ```
 
 ### **Scan Using Extracted Source Code (Faster)**
 
 ```bash
-python DepiApk.py -apk file.apk -source <source-code-path>
+python DEPI_APK.py -apk file.apk -source <source-code-path>
 ```
 
 ### **Generate PDF and HTML Reports**
 
 ```bash
-python DepiApk.py -apk file.apk -report
+python DEPI_APK.py -apk file.apk -report
 ```
 
